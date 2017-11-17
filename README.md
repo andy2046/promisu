@@ -1,0 +1,2 @@
+# promisu
+functional promise
