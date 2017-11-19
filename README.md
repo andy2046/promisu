@@ -1,2 +1,2 @@
 # promisu
-functional promise
+functional promise with map filter reduce

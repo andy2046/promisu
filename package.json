@@ -1,0 +1,26 @@
+{
+  "name": "promisu",
+  "version": "1.0.0",
+  "description": "functional promise with map filter reduce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy2046/promisu.git"
+  },
+  "keywords": [
+    "functional",
+    "promise",
+    "map",
+    "filter",
+    "reduce"
+  ],
+  "author": "AndyP (https://www.npmjs.com/~andy*()",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andy2046/promisu/issues"
+  },
+  "homepage": "https://github.com/andy2046/promisu#readme"
+}
