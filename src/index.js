@@ -1,15 +1,18 @@
-const PromisuAll     = require('./lib/PromisuAll')
-const PromisuMap     = require('./lib/PromisuMap')
-const PromisuEvery   = require('./lib/PromisuEvery')
-const PromisuFew     = require('./lib/PromisuFew')
-const PromisuFilter  = require('./lib/PromisuFilter')
-const PromisuFinally = require('./lib/PromisuFinally')
-const PromisuQueue   = require('./lib/PromisuQueue')
-const PromisuRace    = require('./lib/PromisuRace')
-const PromisuReduce  = require('./lib/PromisuReduce')
-const PromisuSome    = require('./lib/PromisuSome')
-const PromisuTry     = require('./lib/PromisuTry')
-const PromisuWaitFor = require('./lib/PromisuWaitFor')
+const PromisuAll      = require('./lib/PromisuAll')
+const PromisuMap      = require('./lib/PromisuMap')
+const PromisuEvery    = require('./lib/PromisuEvery')
+const PromisuFew      = require('./lib/PromisuFew')
+const PromisuFilter   = require('./lib/PromisuFilter')
+const PromisuFinally  = require('./lib/PromisuFinally')
+const PromisuQueue    = require('./lib/PromisuQueue')
+const PromisuRace     = require('./lib/PromisuRace')
+const PromisuReduce   = require('./lib/PromisuReduce')
+const PromisuSome     = require('./lib/PromisuSome')
+const PromisuTry      = require('./lib/PromisuTry')
+const PromisuWaitFor  = require('./lib/PromisuWaitFor')
+const PromisuScan     = require('./lib/PromisuScan')
+const PromisuDebounce = require('./lib/PromisuDebounce')
+const PromisuThrottle = require('./lib/PromisuThrottle')
 
 module.exports = {
   PromisuAll,
@@ -23,5 +26,8 @@ module.exports = {
   PromisuReduce,
   PromisuSome,
   PromisuTry,
-  PromisuWaitFor
+  PromisuWaitFor,
+  PromisuScan,
+  PromisuDebounce,
+  PromisuThrottle
 }

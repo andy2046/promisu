@@ -1,5 +1,5 @@
 const PromisuFew = (iterable, options) => new Promise((resolve, reject) => {
-  const opts = Object.assign({count: 1}, options)
+  const opts = Object.assign({ count: 1 }, options)
 
   if (!Number.isFinite(opts.count)) {
     throw new TypeError('Expect a finite number for options.count')

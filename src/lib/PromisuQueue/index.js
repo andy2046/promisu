@@ -108,6 +108,16 @@ const PromisuQueue = (function () {
       return this._pendingCount
     }
   }
+
+  Object.defineProperty(PromisuQueue, 'of', {
+    value: function (opts) {
+      return new PromisuQueue(opts)
+    },
+    writable : false,
+    enumerable : true,
+    configurable : false
+  })
+  
   return PromisuQueue
 })()
 

@@ -1,10 +1,10 @@
 {
   "name": "promisu",
-  "version": "1.0.0",
-  "description": "functional promise with map filter reduce",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "functional promise with map filter reduce scan all race every some few try waitfor finally queue debounce throttle",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,19 @@
     "promise",
     "map",
     "filter",
-    "reduce"
+    "reduce",
+    "scan",
+    "all",
+    "race",
+    "every",
+    "some",
+    "few",
+    "try",
+    "waitfor",
+    "finally",
+    "queue",
+    "debounce",
+    "throttle"
   ],
   "author": "AndyP (https://www.npmjs.com/~andy*()",
   "license": "MIT",
