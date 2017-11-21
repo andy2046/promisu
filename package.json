@@ -1,6 +1,6 @@
 {
   "name": "promisu",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "functional promise with map filter reduce scan all race every some few try waitfor finally queue debounce throttle",
   "main": "src/index.js",
   "scripts": {

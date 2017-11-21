@@ -193,6 +193,28 @@ const testPromisuScan = () => new Promise(resolve => {
 
 })
 
+const testPromisuWaitFor = () => new Promise(resolve => {
+
+  // PromisuWaitFor
+  console.log('// PromisuWaitFor');
+
+  const waitFn = x => () => new Promise(resolve => { resolve(x) })
+
+  PromisuWaitFor(waitFn(true), 200)
+    .then(() => {
+      console.log('PromisuWaitFor done');
+    })
+
+  PromisuWaitFor(waitFn(false), 200)
+    .catch(() => {
+      // console.log('PromisuWaitFor done');
+      resolve()
+    })
+
+  // PromisuWaitFor done
+
+})
+
 const testPromisuFinally = () => new Promise(resolve => {
 
   // PromisuFinally
@@ -207,16 +229,6 @@ const testPromisuTry = () => new Promise(resolve => {
 
   // PromisuTry
   console.log('// PromisuTry');
-
-  // TODO
-  resolve()
-
-})
-
-const testPromisuWaitFor = () => new Promise(resolve => {
-
-  // PromisuWaitFor
-  console.log('// PromisuWaitFor');
 
   // TODO
   resolve()
@@ -243,7 +255,6 @@ const testPromisuThrottle = () => new Promise(resolve => {
 
 })
 
-
 const testArr = [
   testPromisuQueue,
   testPromisuAll,
@@ -255,9 +266,9 @@ const testArr = [
   testPromisuFilter,
   testPromisuReduce,
   testPromisuScan,
+  testPromisuWaitFor,
   testPromisuFinally,
   testPromisuTry,
-  testPromisuWaitFor,
   testPromisuDebounce,
   testPromisuThrottle
 ]
