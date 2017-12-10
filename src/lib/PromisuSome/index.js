@@ -1,6 +1,5 @@
 const PromisuMap = require('../PromisuMap')
-
-class StopError extends Error {}
+const StopError = require('../StopError')
 
 const test = testFn => (x, i) => Promise.resolve(testFn(x, i)).then(val => {
   if (val) {

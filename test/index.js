@@ -14,7 +14,7 @@ const {
   PromisuScan,
   PromisuDebounce,
   PromisuThrottle
-} = require('../src');
+} = require('../dist/promisu');
 
 const asyncTask = (time) => () => { return new Promise(resolve => {
   setTimeout(() => resolve(time), time)

@@ -2,24 +2,22 @@
   "presets": [
     ["env", {
       "targets": {
-        "node": "current"
+        "browsers": ["last 2 versions", ">= 1%"]
       }
     }]
   ],
-  "sourceMaps": "both",
   "plugins": [
-    "transform-decorators-legacy",
     "transform-object-rest-spread",
-    "transform-runtime"
+    "transform-runtime",
+    ["transform-builtin-extend", {
+      globals: ["Error", "Array"]
+    }]
   ],
   "env": {
     "test": {
       "plugins": [
-        ["istanbul"]
+        ["istanbul", "source-map-support"]
       ]
-    },
-    "production": {
-      "plugins": ["source-map-support"]
     }
   }
 }

@@ -1,5 +1,5 @@
 # promisu
-promisu is a JavaScript (ES6/ES2015) lib for functional promise with the following operators: **Map**, **Filter**, **Reduce**, **Scan**, **Every**, **Some**, **Few**, **Finally**, **All**, **Race**, **Try**, **WaitFor**, **Queue**, **Debounce**, **Throttle**.
+promisu is a JavaScript lib for functional promise with the following operators: **Map**, **Filter**, **Reduce**, **Scan**, **Every**, **Some**, **Few**, **Finally**, **All**, **Race**, **Try**, **WaitFor**, **Queue**, **Debounce**, **Throttle**.
 
 ## Examples
 ```js
